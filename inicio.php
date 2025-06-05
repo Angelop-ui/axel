@@ -11,9 +11,9 @@
 
     <div class="carrusel">
         <div class="carrusel-contenedor" style="display: flex; transition: transform 0.5s ease;">
-            <div class="carrusel-item" style="min-width: 100%;"><img src="img/imagen1.jpg" alt="Imagen 1" style="width: 100%;"></div>
-            <div class="carrusel-item" style="min-width: 100%;"><img src="img/imagen2.jpg" alt="Imagen 2" style="width: 100%;"></div>
-            <div class="carrusel-item" style="min-width: 100%;"><img src="img/imagen3.jpg" alt="Imagen 3" style="width: 100%;"></div>
+            <div class="carrusel-item" style="min-width: 100%;"><img src="imagen1.jpg" alt="Imagen 1" style="width: 100%;"></div>
+            <div class="carrusel-item" style="min-width: 100%;"><img src="imagen2.jpg" alt="Imagen 2" style="width: 100%;"></div>
+            <div class="carrusel-item" style="min-width: 100%;"><img src="imagen3.jpg" alt="Imagen 3" style="width: 100%;"></div>
         </div>
         <button class="carrusel-anterior" style="position: absolute; top: 50%; left: 10px;">&#10094;</button>
         <button class="carrusel-siguiente" style="position: absolute; top: 50%; right: 10px;">&#10095;</button>
@@ -38,9 +38,9 @@
     </p>
 
     <div class="imagenes-bienvenida">
-        <img src="img/1.jpg" alt="Agua pluvial siendo recolectada desde el techo">
-        <img src="img/2.jpg" alt="Uso de agua de lluvia para regar jardines">
-        <img src="img/3.jpg" alt="Niños aprendiendo sobre captación de agua">
+        <img src="1.jpg" alt="Agua pluvial siendo recolectada desde el techo">
+        <img src="2.jpg" alt="Uso de agua de lluvia para regar jardines">
+        <img src="3.jpg" alt="Niños aprendiendo sobre captación de agua">
     </div>
 
     <p>
