@@ -26,11 +26,11 @@
   </form>
 
   <div class="imagen-container">
-    <img id="img-pvc" class="material-img" src="img/pvc.jpg" alt="Tubo de PVC">
-    <img id="img-soporte" class="material-img" src="img/soporte.jpg" alt="Soporte de aluminio">
-    <img id="img-lamina" class="material-img" src="img/lamina.jpg" alt="Lámina galvanizada">
-    <img id="img-union" class="material-img" src="img/union.jpg" alt="Conexión unión de plástico">
-    <img id="img-filtro" class="material-img" src="img/filtro.jpg" alt="Filtro de hojas">
+    <img id="img-pvc" class="material-img" src="pvc.jpg" alt="Tubo de PVC">
+    <img id="img-soporte" class="material-img" src="soporte.jpg" alt="Soporte de aluminio">
+    <img id="img-lamina" class="material-img" src="lamina.jpg" alt="Lámina galvanizada">
+    <img id="img-union" class="material-img" src="union.jpg" alt="Conexión unión de plástico">
+    <img id="img-filtro" class="material-img" src="filtro.jpg" alt="Filtro de hojas">
   </div>
 </section>
 
