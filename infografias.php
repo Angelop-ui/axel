@@ -39,9 +39,9 @@
 </label>
 
 <div class="contenedor-infografias" id="infografias" style="display: none;">
-    <img src="img/info1.jpg" alt="Infografía sobre captación de agua">
+    <img src="info1.jpg" alt="Infografía sobre captación de agua">
     <video controls>
-        <source src="vid/info2.mp4" type="video/mp4">
+        <source src="info2.mp4" type="video/mp4">
         Tu navegador no soporta el video.
     </video>
 </div>
