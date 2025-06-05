@@ -14,11 +14,11 @@ $page = $_GET['page'] ?? 'inicio';
 
 <main>
     <?php
-    $ruta = "pages/$page.php";
+    $ruta = "$page.php";
     if (file_exists($ruta)) {
         include $ruta;
     } else {
-        include "pages/error.php";
+        include "error.php";
     }
     ?>
 </main>
