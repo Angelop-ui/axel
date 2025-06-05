@@ -1,0 +1,310 @@
+body { font-family: 'Segoe UI', sans-serif; background: #e3f2fd; margin: 0; padding: 0; }
+header { background-color: #0f8067; color: white; padding: 20px; text-align: center; }
+nav { background-color: #149971; display: flex; justify-content: center; padding: 10px; flex-wrap: wrap; }
+nav a { color: white; text-decoration: none; margin: 5px 15px; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+main { background: white; margin: 30px auto; padding: 20px; border-radius: 10px; width: 80%; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+button { background-color: #149971; color: white; border: none; padding: 10px 20px; margin-top: 20px; border-radius: 5px; cursor: pointer; }
+button:hover { background-color: #156954; }
+h2 { color: #0e855d; }
+.material-img { display: none; margin-top: 10px; width: 300px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+input[type="number"] { width: 60px; }
+#recibo { margin-top: 20px; border: 1px solid #ddd; padding: 10px; background: #f1f1f1; }
+label { display: block; margin-bottom: 15px; }
+textarea { width: 100%; max-width: 100%; padding: 10px; border-radius: 5px; }
+.carrusel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    height: 400px; /* altura fija */
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.carrusel-contenedor {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.carrusel-item {
+    flex: 0 0 100%;
+    height: 100%;
+}
+
+.carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* recorta y ajusta la imagen */
+    border-radius: 10px;
+}
+
+.carrusel-anterior,
+.carrusel-siguiente {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(25, 118, 210, 0.8);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.carrusel-anterior:hover,
+.carrusel-siguiente:hover {
+    background-color: rgba(21, 101, 192, 0.9);
+}
+
+.carrusel-anterior {
+    left: 10px;
+}
+
+.carrusel-siguiente {
+    right: 10px;
+}
+
+.contenedor-infografias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contenedor-infografias img,
+.contenedor-infografias video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    object-fit: contain;
+    background-color: white;
+}
+
+.bienvenida {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.bienvenida p {
+    max-width: 850px;
+    margin: 10px auto;
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+.bienvenida ul {
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+.bienvenida ul li {
+    margin-bottom: 10px;
+    font-size: 1.05em;
+}
+
+.bienvenida h3 {
+    margin-top: 30px;
+    color: #1976d2;
+}
+
+.imagenes-bienvenida {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.imagenes-bienvenida img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* Sección de cuidados */
+section.cuidados-sistema {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.05em;
+    line-height: 1.7;
+}
+
+section.cuidados-sistema h2 {
+    text-align: center;
+    color: #1976d2;
+    margin-bottom: 25px;
+}
+
+section.cuidados-sistema h3 {
+    color: #2196f3;
+    margin-top: 30px;
+}
+
+section.cuidados-sistema p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+section.cuidados-sistema ul {
+    margin: 15px 0 25px 20px;
+    padding-left: 20px;
+}
+
+section.cuidados-sistema ul li {
+    margin-bottom: 10px;
+    list-style-type: "✔️ ";
+    padding-left: 5px;
+}
+
+section.cuidados-sistema a {
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.cuidados-sistema a:hover {
+    text-decoration: underline;
+    color: #1565c0;
+}
+
+.ventajas {
+  background: #f0f8ff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  margin: 40px auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+.ventajas h2 {
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ventajas ul {
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.ventajas li {
+  margin-bottom: 10px;
+  list-style-type: "✅ ";
+  padding-left: 8px;
+}
+
+.video-box {
+  margin-top: 30px;
+  background: #ffffff;
+  border: 2px solid #bbdefb;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.video-box h3 {
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
+
+.prototipo-materiales {
+  background: #f1f8e9;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.prototipo-materiales h2 {
+  color: #33691e;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.material-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.material-option {
+  background: #ffffff;
+  padding: 10px 15px;
+  border: 1px solid #c5e1a5;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.material-option:hover {
+  background: #e6f2d9;
+}
+
+.material-option label {
+  font-weight: bold;
+  color: #558b2f;
+  cursor: pointer;
+}
+
+.material-desc {
+  font-size: 0.95em;
+  color: #4e4e4e;
+  margin-left: 22px;
+  margin-top: 5px;
+}
+
+.imagen-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.material-img {
+  display: none;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
