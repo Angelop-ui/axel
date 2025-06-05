@@ -2,7 +2,7 @@
 
 <h3>Materiales Recomendados</h3>
 <p>
-    <img src="img/materiales.jpg" alt="Materiales recomendados" style="float:right; max-width:200px; margin-left:15px;">
+    <img src="materiales.jpg" alt="Materiales recomendados" style="float:right; max-width:200px; margin-left:15px;">
     Es fundamental construir el sistema con materiales resistentes a la intemperie y a la corrosión. El PVC es ideal para tuberías por su bajo costo y durabilidad, mientras que el aluminio y la lámina galvanizada funcionan bien en techos y canaletas. También pueden utilizarse mallas plásticas o de acero inoxidable para filtros.
 </p>
 <ul>
@@ -15,7 +15,7 @@
 
 <h3>Condiciones Ambientales</h3>
 <p>
-    <img src="img/ambiente.jpg" alt="Condiciones ambientales" style="float:left; max-width:200px; margin-right:15px;">
+    <img src="ambiente.jpg" alt="Condiciones ambientales" style="float:left; max-width:200px; margin-right:15px;">
     Para asegurar la eficiencia del sistema, es importante mantenerlo alejado de fuentes de contaminación como chimeneas, árboles que suelten muchas hojas, zonas con humo o residuos industriales. Estas fuentes pueden ensuciar el techo o canaletas, afectando la calidad del agua recolectada.
 </p>
 <ul>
@@ -28,7 +28,7 @@
 
 <h3>Filtros y Almacenamiento</h3>
 <p>
-    <img src="img/filtro.png" alt="Filtros y almacenamiento" style="float:right; max-width:220px; margin-left:15px;">
+    <img src="filtro.png" alt="Filtros y almacenamiento" style="float:right; max-width:220px; margin-left:15px;">
     Los filtros son esenciales para evitar que sedimentos, hojas o excrementos lleguen al tanque de almacenamiento. Se recomienda usar filtros de primera lluvia (first flush) para desechar los primeros litros de cada lluvia, que suelen estar más contaminados.
 </p>
 <p>
@@ -39,7 +39,7 @@
 
 <h3>Revisión y Mantenimiento</h3>
 <p>
-    <img src="img/mante.jpg" alt="Mantenimiento del sistema" style="float:left; max-width:200px; margin-right:15px;">
+    <img src="mante.jpg" alt="Mantenimiento del sistema" style="float:left; max-width:200px; margin-right:15px;">
     El sistema de captación no debe dejarse sin supervisión. Es importante revisar periódicamente:
 </p>
 <ul>
